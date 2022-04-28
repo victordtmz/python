@@ -2,7 +2,7 @@ import imaplib
 import email
 imap_server = "imap.flockmail.com"
 account = 'victor.m@enlacellc.com'
-pwd = "Abogado2020"
+pwd = "********"
 imap = imaplib.IMAP4_SSL(imap_server)
 imap.login(account, pwd)
 imap.select("Inbox")

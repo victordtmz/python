@@ -32,7 +32,7 @@ msg.add_attachment(file_data, maintype = "image", subtype = file_type, filename=
 
 with smtplib.SMTP_SSL('smtp.flockmail.com',465) as smtp:
     account = 'victor.m@enlacellc.com'
-    pwd = "Abogado2020"
+    pwd = "--------"
     smtp.login(account, pwd)
     smtp.send_message(msg)
     
