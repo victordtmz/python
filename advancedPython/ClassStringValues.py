@@ -13,7 +13,7 @@ class person():
     def __repr__(self) -> str:
         return f'<Person Class - {self.fname}, {self.lname}, {self.age}'
     
-    # TODO: use __repr__ to create a string useful for debugging
+    # TODO: called when str(object), print(object)
     def __str__(self) -> str:
         return f' {self.fname} {self.lname} is {self.age} years old'
 
